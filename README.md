@@ -1,10 +1,15 @@
-# WaybackWebsift
+# WaybackWebSift
 
-Tool to scrape emails, phone numbers, and links from a given URL either passively from archived sources or actively by requesting the URL.
+    ▄   ▄ ▗▞▀▜▌▄   ▄ ▗▖▗▞▀▜▌▗▞▀▘█  ▄     ▄   ▄ ▗▞▀▚▖▗▖        ▄▄▄ ▄ ▗▞▀▀▘■
+    █ ▄ █ ▝▚▄▟▌█   █ ▐▌▝▚▄▟▌▝▚▄▖█▄▀      █ ▄ █ ▐▛▀▀▘▐▌       ▀▄▄  ▄ ▐▌▗▄▟▙▄▖
+    █▄█▄█       ▀▀▀█ ▐▛▀▚▖      █ ▀▄     █▄█▄█ ▝▚▄▄▖▐▛▀▚▖    ▄▄▄▀ █ ▐▛▀▘▐▌
+               ▄   █ ▐▙▄▞▘      █  █                ▐▙▄▞▘         █ ▐▌  ▐▌
+                ▀▀▀                                                     ▐▌
+
+Tool to scrape emails, phone numbers, and links from a given URL either passively from archived sources or actively by fetching the URL.
+This project is a rewrite of [WebSift by s-r-e-e-r-a-j](https://github.com/s-r-e-e-r-a-j/WebSift) in Python.
 
 ![Demo](waybackwebsift.gif)
-
-This project is a rewrite of [WebSift by s-r-e-e-r-a-j](https://github.com/s-r-e-e-r-a-j/WebSift)  in Python.
 
 ## Features
 
@@ -45,7 +50,7 @@ python waybackwebsift.py
 ```
 Follow the interactive prompts to choose the URL, the archive source (if any), the data to scrape, and whether or not you want to save the results in a specified folder.
 
-# Known Issues
+## Known Issues
 - When requesting archive.today, we get a 302 with a timeout before getting the URL. This is not supported yet by the script.
 - Links extracted when using archivers are suffixed by their archived URLs.
 
