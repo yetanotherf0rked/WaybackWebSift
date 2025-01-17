@@ -1,11 +1,5 @@
 # WaybackWebSift
 
-    ▄   ▄ ▗▞▀▜▌▄   ▄ ▗▖▗▞▀▜▌▗▞▀▘█  ▄     ▄   ▄ ▗▞▀▚▖▗▖        ▄▄▄ ▄ ▗▞▀▀▘■
-    █ ▄ █ ▝▚▄▟▌█   █ ▐▌▝▚▄▟▌▝▚▄▖█▄▀      █ ▄ █ ▐▛▀▀▘▐▌       ▀▄▄  ▄ ▐▌▗▄▟▙▄▖
-    █▄█▄█       ▀▀▀█ ▐▛▀▚▖      █ ▀▄     █▄█▄█ ▝▚▄▄▖▐▛▀▚▖    ▄▄▄▀ █ ▐▛▀▘▐▌
-               ▄   █ ▐▙▄▞▘      █  █                ▐▙▄▞▘         █ ▐▌  ▐▌
-                ▀▀▀                                                     ▐▌
-
 Tool to scrape emails, phone numbers, and links from a given URL either passively from archived sources or actively by fetching the URL.
 This project is a rewrite of [WebSift by s-r-e-e-r-a-j](https://github.com/s-r-e-e-r-a-j/WebSift) in Python.
 
@@ -37,7 +31,7 @@ git clone https://github.com/yetanotherf0rked/waybackwebsift.git
 cd waybackwebsift
 ```
 
-2. **Install the required packages:
+2. **Install the required packages:**
 ```bash
 pip install -r requirements.txt
 ```
